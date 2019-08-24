@@ -1,0 +1,85 @@
+body{
+    display:grid;
+    grid-template-rows: 50px 470px 100px;
+}
+
+.main{
+    color:white;
+    text-align:center;
+    background-image: url("https://res.cloudinary.com/tclm/image/upload/c_crop,h_683,w_1216,x_0,y_0/h_381,w_678/v1537389323/IMG-20180106-WA0017_ddtcqx.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1{
+  font-style:italic;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+td, span{
+    text-align: center;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+td:hover, span:hover{
+   background-color: green; 
+}
+
+a {
+  font-weight: bolder;
+  color:rgb(189, 171, 189);
+}
+
+span {
+  padding:15px;
+}
+
+a:hover, .fa-envelope-o{
+    color:white;
+}
+
+footer{
+    background-color:rgb(189, 171, 189);
+    display:flex;
+    flex-direction: row;
+}
+
+.fa {
+    padding: 15px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 30px;
+    height: 10px;
+    width: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+  }
+
+.fa-facebook{
+    background: #3B5998;
+    color: white;
+  }
+  
+.fa-twitter{
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram{
+    background: purple;
+    color:white;
+  }
+
+.fa-whatsapp{
+    background: green;
+    color: white
+  }
+  
+footer > div{
+    padding-top: 10px;
+    margin:auto;
+  }
