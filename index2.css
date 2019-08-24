@@ -1,0 +1,46 @@
+main{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows:240px 240px;
+    justify-content: center;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+    background-image: url("https://flogas-core.s3.amazonaws.com/uploads/strip_image/2_10_sm.jpg?1520439115");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 3px solid black;
+}
+
+.a {
+    height: 50px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+td{
+    text-align: center;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+td:hover{
+    background-color: green; 
+ }
+
+ a {
+   font-weight: bolder;
+   color:rgb(189, 171, 189);
+ }
+
+ a:hover{
+     background-color: green;
+     color: white;
+ }
+
+ footer{
+     height: 80px;
+    background-color:rgb(189, 171, 189);
+    display:flex;
+    flex-direction: row;
+}
+
