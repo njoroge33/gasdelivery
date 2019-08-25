@@ -3,6 +3,37 @@ body{
     grid-template-rows: 50px 470px 100px;
 }
 
+td > button{
+  width: 100%;
+}
+
+td, button{
+    text-align: center;
+    background-color: purple;
+    border-radius: 5px;
+}
+
+td:hover, button:hover{
+   background-color: green; 
+}
+
+a, button {
+  font-weight: bolder;
+  color:rgb(189, 171, 189);
+}
+
+button{
+  border: none;
+  height: 40px;
+}
+
+a:hover, button:hover, .close:hover, .fa-envelope-o{
+  cursor: pointer;
+  color:white;
+  font-weight: 100;
+}
+
+
 .main{
     color:white;
     text-align:center;
@@ -17,29 +48,6 @@ h1{
   font-style:italic;
   font-size: 40px;
   text-decoration: underline;
-}
-
-td, span{
-    text-align: center;
-    background-color: purple;
-    border-radius: 5px;
-}
-
-td:hover, span:hover{
-   background-color: green; 
-}
-
-a {
-  font-weight: bolder;
-  color:rgb(189, 171, 189);
-}
-
-span {
-  padding:15px;
-}
-
-a:hover, .fa-envelope-o{
-    color:white;
 }
 
 .footer{
@@ -80,7 +88,38 @@ a:hover, .fa-envelope-o{
     color: white
   }
   
-.footer > div{
+.footer > div, form > div{
     padding-top: 10px;
     margin:auto;
   }
+
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+  }
+  
+form {
+    background-color: white;
+    border:3px solid purple;
+    text-align: center;
+    border-radius: 5%;
+    margin: 5px auto;
+    width: 30%;
+    height: 30%;
+  }
+
+  .close {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    font-size: 30px;
+  }
+  

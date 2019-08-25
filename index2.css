@@ -1,3 +1,12 @@
+.header{
+    background-color:purple;
+    display:flex;
+}
+
+h1{
+    color: rgb(189, 171, 189);
+}
+
 .main{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -11,13 +20,10 @@
     border: 3px solid black;
 }
 
-.header {
+.footer{
     height: 50px;
-}
-
-td{
     text-align: center;
-    background-color: purple;
+    background-color: rgb(189, 171, 189);
     border-radius: 5px;
 }
 
@@ -26,23 +32,15 @@ td:hover{
  }
 
  a {
-   font-weight: bolder;
-   color:rgb(189, 171, 189);
+    color:black;
+    font-weight: bolder;
+    color:b;
  }
 
  a:hover{
      background-color: green;
      color: white;
  }
-
- .box{
-     border: 3px solid black;
- }
-
-.footer{
-    background-color:rgb(189, 171, 189);
-    display:flex;
-}
 
 img{
     padding:5px;
@@ -51,7 +49,7 @@ img{
 }
 
 @media only screen and (min-width:700px){
-    .footer{
+    .header{
         flex-direction:row;
     }
 }
