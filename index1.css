@@ -33,6 +33,26 @@ a:hover, button:hover, .close:hover, .fa-envelope-o{
   font-weight: 100;
 }
 
+form {
+  background-color: white;
+  border:3px solid purple;
+  text-align: center;
+  border-radius: 5%;
+  margin: 5px auto;
+  width: 30%;
+  height: 30%;
+}
+
+.close {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  font-size: 30px;
+}
+
+.signup-form{
+  height: 50%;
+}
 
 .main{
     color:white;
@@ -106,20 +126,5 @@ h1{
     padding-top: 60px;
   }
   
-form {
-    background-color: white;
-    border:3px solid purple;
-    text-align: center;
-    border-radius: 5%;
-    margin: 5px auto;
-    width: 30%;
-    height: 30%;
-  }
 
-  .close {
-    position: absolute;
-    right: 100px;
-    top: 50px;
-    font-size: 30px;
-  }
   

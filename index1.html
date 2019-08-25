@@ -24,14 +24,14 @@
 
     <div id="idlogin" class="modal">
             <button onclick="document.getElementById('idlogin').style.display='none'" class="close" title="Close Modal">&times;</button>
-        <form>
+        <form class="login-form">
             <div>
-            <label><b>Username</b></label> 
+            <label><b>Username:</b></label> 
             <input type="text" placeholder="Enter Username" name="uname" required> 
             </div>
 
             <div>
-            <label><b>Password</b></label> 
+            <label><b>Password:</b></label> 
             <input type="password" placeholder="Enter Password" name="psw" minlength="8" maxlength="8" required> 
             </div>
 
@@ -44,19 +44,27 @@
 
     <div id="idsignup" class="modal">
             <button onclick="document.getElementById('idsignup').style.display='none'" class="close" title="Close Modal">&times;</button>
-        <form>
+        <form class="signup-form">
+            <h2>SIGN UP</h2>
+            <p>Please fill in this form to create an account.</p>
+
             <div>
-            <label><b>Username</b></label> 
+            <label><b>Username:</b></label> 
             <input type="text" placeholder="Enter Username" name="uname" required> 
             </div>
 
             <div>
-            <label><b>Password</b></label> 
+                <label><b>Your Email:</b></label> 
+                <input type="text" placeholder="Enter email" name="email" required> 
+            </div>
+
+            <div>
+            <label><b>Password:</b></label> 
             <input type="password" placeholder="Enter Password" name="psw" minlength="8" maxlength="8" required> 
             </div>
 
             <div>
-            <button type="submit">Login</button>
+            <button type="submit">Submit</button>
             <button class="psw"><a href="#">Forgot password?</a></button>   
             </div>
         </form>
@@ -73,7 +81,7 @@
     <div class="footer">
         <div id="whatsapp">
             <a href="#" class="fa fa-whatsapp"></a>
-            <p>+254724254023</p>
+            <p>+2547242543</p>
         </div>
         <div id="facebook">
             <a href="#" class="fa fa-facebook"></a>
