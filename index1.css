@@ -33,7 +33,7 @@ a:hover, button:hover, .close:hover, .fa-envelope-o{
   font-weight: 100;
 }
 
-form {
+.form {
   background-color: white;
   border:3px solid purple;
   text-align: center;
@@ -50,8 +50,12 @@ form {
   font-size: 30px;
 }
 
-.signup-form{
+.signup, .aboutus{
   height: 50%;
+}
+
+.checked{
+  color:orange;
 }
 
 .main{
