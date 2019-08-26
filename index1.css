@@ -1,9 +1,10 @@
 body{
     display:grid;
-    grid-template-rows: 50px 470px 100px;
+    grid-template-rows: 60px 600px 110px;
 }
 
 td > button{
+  height:100%;
   width: 100%;
 }
 
@@ -61,7 +62,7 @@ a:hover, button:hover, .close:hover, .fa-envelope-o{
 .main{
     color:white;
     text-align:center;
-    background-image: url("https://res.cloudinary.com/tclm/image/upload/c_crop,h_683,w_1216,x_0,y_0/h_381,w_678/v1537389323/IMG-20180106-WA0017_ddtcqx.jpg");
+    background-image: url("./images/gas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

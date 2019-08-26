@@ -1,4 +1,9 @@
+*{
+    height:100%;
+}
+
 .header{
+    height:12%;
     background-color:purple;
     display:flex;
 }
@@ -8,20 +13,24 @@ h1{
 }
 
 .main{
+    height: 80%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows:240px 240px;
+    grid-template-rows: (50%, 40%);
     justify-content: center;
-    grid-row-gap: 10px;
+    grid-row-gap: 2%;
     grid-column-gap: 10px;
-    background-image: url("https://flogas-core.s3.amazonaws.com/uploads/strip_image/2_10_sm.jpg?1520439115");
+    background-image: url("./images/page2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.box{
     border: 3px solid black;
 }
 
 .footer{
-    height: 50px;
+    height: 8%;
     text-align: center;
     background-color: rgb(189, 171, 189);
     border-radius: 5px;
