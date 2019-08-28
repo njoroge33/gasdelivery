@@ -4,29 +4,42 @@
 
 .header{
     height:12%;
-    background-color:purple;
+    background-color: lightseagreen;
     display:flex;
 }
 
 h1{
-    color: rgb(189, 171, 189);
+    color: black;
 }
 
 .main{
     height: 80%;
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: (50%, 40%);
+    grid-template-rows: (50%, 50%);
     justify-content: center;
-    grid-row-gap: 2%;
     grid-column-gap: 10px;
-    background-image: url("./images/page2.jpg");
+    grid-row-gap: 2%;
+    background-image: url("./images/gas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    color: aliceblue;
+}
+
+.box > h2, p, strong, h3{
+    font-size: 19px;
+    font-weight: bold;
+    height: 0;
+    position: relative;
+    left:20px;
 }
 
 .box{
-    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    border: 1px solid black;
+    box-shadow:5px red;
 }
 
 .footer{

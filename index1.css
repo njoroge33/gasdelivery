@@ -10,17 +10,18 @@ td > button{
 
 td, button{
     text-align: center;
-    background-color: purple;
+    background-color: lightseagreen;
     border-radius: 5px;
 }
 
 td:hover, button:hover{
-   background-color: green; 
+   background-color: blue; 
 }
 
 a, button {
+  font-size: 18px;
   font-weight: bolder;
-  color:rgb(189, 171, 189);
+  color:black;
 }
 
 button{
@@ -36,7 +37,7 @@ a:hover, button:hover, .close:hover, .fa-envelope-o{
 
 .form {
   background-color: white;
-  border:3px solid purple;
+  border:3px solid skyblue;
   text-align: center;
   border-radius: 5%;
   margin: 5px auto;
@@ -104,7 +105,7 @@ h1{
   }
 
 .fa-instagram{
-    background: purple;
+    background: skyblue;
     color:white;
   }
 
