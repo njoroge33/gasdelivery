@@ -71,7 +71,7 @@ img{
     background-image: url("./images/gas.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    color:lightseagreen;
+    color:rgb(32, 83, 178);
     font-weight:bolder;
 }
 
@@ -89,6 +89,7 @@ img{
     bottom:30px;
     left: 20px;
     right: 10px;
+    color: black;
     float:right;
 }
 
@@ -111,7 +112,7 @@ button{
     padding-top: 60px;
   }
   
-  .form {
+.form {
     background-color: white;
     border:3px solid skyblue;
     text-align: center;
@@ -123,10 +124,10 @@ button{
   }
 
 .close {
-position: absolute;
-right: 100px;
-top: 50px;
-font-size: 30px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    font-size: 30px;
 }
     
 .form > div{
