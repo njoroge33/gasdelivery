@@ -91,6 +91,8 @@ img{
     bottom:50px;
     left: 20px;
     right: 20px;
+    right: 10px;
+    color: black;
     float:right;
 }
 
@@ -113,7 +115,7 @@ button{
     padding-top: 60px;
   }
   
-  .form {
+.form {
     background-color: white;
     border:3px solid skyblue;
     text-align: center;
@@ -125,10 +127,10 @@ button{
   }
 
 .close {
-position: absolute;
-right: 100px;
-top: 50px;
-font-size: 30px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    font-size: 30px;
 }
     
 .form > div{
