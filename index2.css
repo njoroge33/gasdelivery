@@ -68,11 +68,12 @@ img{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: url("./images/gas.jpg");
+    background-image: url("https://previews.123rf.com/images/destinacigdem/destinacigdem1803/destinacigdem180300056/97939732-multi-colored-gas-cylinders-isolated-on-white-background-3d-illustration-.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     color:black;
     font-weight:bolder;
+    background-color:rbga(0, 0, 0, 0.9);
 }
 
 .box{
@@ -82,6 +83,8 @@ img{
     margin-left: 20px;
     box-shadow: 2px 2px 5px blue;
     height: 40%;
+    width:50%;
+    overflow: scroll;
 }
 
 .box > button{
@@ -90,7 +93,6 @@ img{
     bottom:50px;
     left: 20px;
     right: 20px;
-    right: 10px;
     color: black;
     float:right;
 }
@@ -127,7 +129,7 @@ button{
 
 .close {
     position: absolute;
-    right: 100px;
+    right: 400px;
     top: 50px;
     font-size: 30px;
 }
