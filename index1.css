@@ -48,7 +48,7 @@ font-weight: 100;
 
 .close {
 position: absolute;
-right: 100px;
+right: 200px;
 top: 50px;
 font-size: 30px;
 }
@@ -63,9 +63,9 @@ color:orange;
 }
 
 .main{
-  color:white;
+  color:black;
   text-align:center;
-  background-image: url("https://res.cloudinary.com/tclm/image/upload/c_crop,h_683,w_1216,x_0,y_0/h_381,w_678/v1537389323/IMG-20180106-WA0017_ddtcqx.jpg");
+  background-image: url("https://previews.123rf.com/images/destinacigdem/destinacigdem1803/destinacigdem180300056/97939732-multi-colored-gas-cylinders-isolated-on-white-background-3d-illustration-.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -136,4 +136,8 @@ text-decoration: underline;
 
 .form > button{
   margin: 20px;
+}
+
+#home{
+  background-color: rgba(0, 0, 0, 0.7);
 }
